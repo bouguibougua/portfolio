@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #f5f5f5; 
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #1c1c1c; 
+    border-bottom: 1px solid #333;
+}
+
+.navbar .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #f5f5f5;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #f5f5f5;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #cccccc;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #121212;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.hero h1 {
+    font-size: 3em;
+}
+
+.hero p {
+    font-size: 1.2em;
+    color: #cccccc;
+    display: flex;
+    margin-left: 10%;
+
+}
+
+.bouton{
+    width: 85px;
+    left: 0;
+    margin-left: 10%;
+    padding: 10px 20px;
+    background-color: rgb(15, 148, 15);
+    border-radius: 5%;
+    box-shadow: #e6ffe0;
+}
+.bouton a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1c1c1c;
+    color: #cccccc;
+    border-top: 1px solid #333;
+}
+
+
+
+
+
+
+
+
+.hero  {
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.group-image 
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.group-image-text
+{
+    width: 40%;
+}
+
+.image
+{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: tomato;
+}
+
+.image img
+{
+   
+    width: 100%;
+    border-radius: 100%;
+}
+
+.group-link
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    margin-top: 20px;
+}
+
+.group-link a
+{
+    color: white;
+    text-decoration: none;
+    
+}
